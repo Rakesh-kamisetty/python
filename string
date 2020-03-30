@@ -1,0 +1,9 @@
+m="he went out for a party"
+q=m.title()
+w=m.islower()
+e=m.upper()
+r=m.istitle()
+print(q)
+print(w)
+print(e)
+print(r)
