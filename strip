@@ -1,0 +1,4 @@
+x="          helloooooo            "
+print(x.strip())
+print(x.lstrip())
+print(x.rstrip())
