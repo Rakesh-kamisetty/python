@@ -1,0 +1,16 @@
+#list
+list1=['rakesh','surya','ganesh','bondam','sai','sohan']
+print(list1)  #to print the whole list
+print(list1[3])  #to print the string at index 3
+print(list1[2].title())
+print(list[-2])
+print(list1[0].upper())
+list1[0]='kamisetty'
+print(list1)
+list1.append('rak')
+print(list1)
+list1.insert(3,'ram')
+print(list1)
+del list1[2]
+print(list1)
+
