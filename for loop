@@ -1,0 +1,5 @@
+list2=['rakesh','surya','gana','bondam','sai','sohan']
+for xx in list2:
+  print(list2)
+  print(list2.title()+" is cool\n")
+print("they are my friends............")
