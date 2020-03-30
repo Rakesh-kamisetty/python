@@ -1,0 +1,7 @@
+list=['rakesh','surya','ganesh','bondam','sai','sohan']
+list.sort()
+print(list)
+list.sort(reverse=True)
+print(list)
+list.reverse()
+print(list)
