@@ -1,0 +1,24 @@
+#dictionaries
+#it consists of keys nd values
+name={'rak':20,'sun':19,'gun':18,'bun':15}
+names=name['rak']
+print(names)
+names=name['sun']
+print(names)
+names=name['gun']
+print(names)
+names=name['bun']
+print(names)
+
+
+#adding new keys and values in a dictionary
+name['sunn']=33
+name['rakk']=22
+print(name)
+
+#deleting new keys and values in a dictionary
+del name['sun']
+print(name)
+del name['bun']
+print(name)
+
