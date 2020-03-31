@@ -1,0 +1,15 @@
+#tuple
+#values cannot be modified
+names=("rak","sun","gun","bun","www")
+x=names[0]
+print(x)#printing index 0 
+y=names[1]
+print(y)#printing index 1
+e=names[2]
+print(e+" "+"shot.......")#printing index 2 with some concat operation
+print(names[3])#printing index 3
+print(names[4])#printing index 4 
+for name in names:
+  print(name+" "+"some random person.")
+print("these are the names")  
+  
