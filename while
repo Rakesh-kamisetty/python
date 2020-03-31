@@ -1,0 +1,7 @@
+#printing numbers using while loop
+num=int(input("enter a value"))
+number=1
+while number<=num:
+  print(number)
+  number=number+1
+print("these are the numbers that you want to print")
