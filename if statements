@@ -1,0 +1,76 @@
+#if statements
+name=['rak','sun','gun','bun','qwerty']
+for names in name:
+  if name=='gun':
+    print(name.upper()+" "+"he is .........")
+  else:
+    print("name.title()+" "+"he is a .......")
+    
+    
+    
+#using multiple conditions
+points=4
+points1=8
+#by using and
+points>1 and points1<=8
+#by using or
+points>1 or points1<=8
+#by using in
+'rak' in name #if it's there it returns true
+
+
+
+
+#if else ststements
+number=9
+if number%2==0:
+	print("It is a even number")
+  print("all even numbers will have remainder 0")
+else:
+	print("It is a odd number")
+  print("all odd numbers will have remainder 1")
+  
+  
+  
+  #if elif statements
+  age=28
+  if age>=20:
+    print("you can watch television without any instructions")
+  elif age>13:
+    print("you can watch television with certain instructions")
+  else:
+    print("you cannot watch television")
+    
+    
+ #only if statements
+ #for satisfying more than one condition
+ om=["rak","sun","gun","bun"]
+ if rak in om:
+  print("awesome")
+if mas in om:
+  print("thrill")
+if sun in om:
+  ptint("very"+" "+"hott.....")
+if gun in om:
+  print("shoot...")
+if bun in om:
+  print("super..")
+print("all are my friends")
+
+
+#checking if list is empty or not
+topp=[]
+if topp:
+  for new in topp:
+    print("Adding " + top + ".") 
+    print("\nFinished making your top.....")
+  else:
+    print("Are you sure you want a top?")
+print("thank you")    
+
+
+    
+  
+
+
+    
