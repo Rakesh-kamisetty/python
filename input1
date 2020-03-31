@@ -1,0 +1,9 @@
+#giving input at runtime
+num=int(input("enter "))#this is how we give input
+if num%2==0:
+	print("it is a even number")
+else:
+	print("it is a odd number")
+  
+  
+  
