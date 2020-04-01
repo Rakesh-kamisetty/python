@@ -1,0 +1,20 @@
+#function by parameter
+def get_name(name)
+ print(name)
+get_name('rakesh') 
+
+
+#passing function normally without parametres
+def get_info()
+ print('rakesh')
+get_info()
+
+
+#multiple function calls
+def get_addr(name,addre):
+ print("He is"+" "+name)
+ print("address is"+" "+addre)
+get_addr('rakesh','srinagar colony')
+get_addr('surya','goutami nagar')
+
+
