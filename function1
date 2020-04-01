@@ -1,0 +1,23 @@
+#default values to parametres
+def get_addr(name,addre='srinagar'):
+ print("He is"+" "+name)
+ print("address is"+" "+addre)
+get_addr('rakesh')
+
+
+
+#equivalent function calls
+#multiple function calls
+def get_addr(name,addre='srinagar'):
+ print("He is"+" "+name)
+ print("address is"+" "+addre)
+get_addr(name='rakesh')
+
+
+#by return in functions
+def build_person(f_name, l_name):
+
+ person = {'first': f_name, 'last': l_name}       
+ return person
+music = build_person('jimi', 'hendrix')  
+print(music)
