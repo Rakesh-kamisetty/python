@@ -1,0 +1,8 @@
+#arbitary number of arguments
+def get_det(*details):  #* represents it can accept any number of details
+ print(details)
+get_det('rakesh')
+get_det('srivalli','surya','sekhar','chandra','ganesh')
+
+
+
