@@ -1,0 +1,5 @@
+str="rakesh"
+for o in str:
+ if i=='s':
+  break
+ print(i) 
