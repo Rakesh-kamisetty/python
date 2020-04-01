@@ -1,0 +1,7 @@
+#continue statements in while loop
+initial_num=0
+while initial_num<10:
+ initial_num=initial_num+1  #incrementing the value
+ if initial_num%2!=0:  #it prints even numbers
+   continue            #when above statement is true it doesnot print any value it continues
+ print(initial_num)    #when statement is false it prints the statement 
