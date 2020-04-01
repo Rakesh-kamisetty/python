@@ -1,0 +1,16 @@
+# we can import functions from one file to another file
+#by keyword import
+def add(a,b):
+ return(a+b)
+def sub(a,b):
+ return(a-b)
+def sub(a,b):
+ return(a*b)
+ 
+ #save the above code with a file name calculation.py
+ #now take a new file
+ from calculation import *
+ a=9
+ b=7
+ c=a+b
+ print(c)
