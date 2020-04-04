@@ -1,0 +1,21 @@
+class Dog:  
+      
+   
+    atr1 = "mamal"
+    atr2 = "dog"
+  
+    # A sample method   
+    def fun(self):  
+        print("I'm a", self.atr1) 
+        print("I'm a", self.atr2) 
+        
+Rodger = Dog() 
+  
+# Accessing class attributes 
+# and method through objects 
+print(Rodger.atr) 
+Rodger.fun() 
+
+
+
+
