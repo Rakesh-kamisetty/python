@@ -1,0 +1,7 @@
+#create a empty text file with extension .txt
+#this is how we write data into the empty file
+filename = 'programming.txt'
+with open(filename, 'w') as file_object:
+ file_object.write("I love programming.")
+ file_object.write("I love programming.")
+ file_object.write("I love programming.")
