@@ -1,0 +1,21 @@
+#create a text file using the extension .txt
+#now i'm creating a file.
+1111222
+#my text file consists of above data
+#save the file as num.txt
+
+
+#this code prints the data in the above file
+filename = 'num.txt'
+with open(filename) as file_object:    #to open the text file 
+  for line in file_object:
+    print(line)  #it prints data
+
+
+
+#it takes all the extra spaces in the right side
+filename = 'pi_digits.txt'
+with open(filename) as file_object:
+  for x in file_object:
+    print(x.rstrip())
+      
